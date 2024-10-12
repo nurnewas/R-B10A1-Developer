@@ -57,22 +57,122 @@ nav {
 }
 /* header > .h */
 
- .tittle-descriotion {
+.tittle-descriotion {
   color: rgb(13, 19, 33);
 
   font-size: 16px;
   font-weight: 400;
 }
 .hero-btn {
-    border-radius: 8px;
+  border-radius: 8px;
 
-background: rgb(13, 19, 33);
-margin: 32px 0px;
-color: #fff;
-width: 244px;
-height: 65px;
+  background: rgb(13, 19, 33);
+  margin: 32px 0px;
+  color: #fff;
+  width: 244px;
+  height: 65px;
 }
 .hero-btn > a {
-text-decoration: none;
-color: #fff;
+  text-decoration: none;
+  color: #fff;
+}
+
+body > main {
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+.developer-section {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+.develpoer-header {
+  justify-content: center;
+  text-align: center;
+  margin: 154px auto 0px;
+  width: 852px;
+  color: rgb(13, 19, 33);
+}
+.devlopment-tittle {
+  font-size: 32px;
+}
+.development-description {
+  margin-top: 40px;
+}
+.developer-content {
+  /* border: red solid 2px; */
+  display: flex;
+  margin: 0 auto;
+  width: 850px;
+  height: 280px;
+  background-color: #fff;
+  margin: 80px 97px;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.developer-content-text {
+  width: 477px;
+  height: 219px;
+  padding: 48px 0 0 48px;
+  /* padding: 48px; */
+}
+
+.developer-img > img {
+  width: 259.56px;
+  height: 217.01px;
+  /* padding: 48px; */
+}
+.developer-content-tittle {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+}
+.developer-content-description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  padding: 16px 0px;
+}
+
+.developer-content-btn {
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  color: ;
+  width: 171px;
+  height: 47px;
+  padding: 12px 20px 12px 20px;
+}
+.developer-content-btn:hover {
+  color: wheat;
+  border: dotted 1px #000000;
+  background-color: #3d3636;
+}
+.flex-revarce {
+  flex-direction: row-reverse;
+}
+
+/* My Inspiration */
+.inspiration-content {
+  margin: 90px auto 48px;
+  max-width: 650px;
+  text-align: center;
+  gap: 20px;
+}
+
+.inspiration-tittle {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+}
+.inspiration-description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 24px 0px 48px;
+}
+.inspiration-video{
+  border-radius: 26px;
 }
