@@ -265,63 +265,108 @@ body > main {
 }
 
 /* I need Support */
+
 .support-section {
   border-radius: 16px;
-  background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
-    url("/assets/handshake.jpg");
+  background: url("/assets/handshake.jpg"), rgba(0, 0, 0, 0.2);
+  background-size: cover;
+  background-position: center;
   width: 1000px;
+  margin: 49px auto 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   height: 313px;
 }
 
 .support-tittle {
   color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
   font-size: 32px;
   font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.support-para {
+  color: rgb(255, 255, 255);
+  opacity: 0.7;
+  width: 606px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.support-input {
+  margin-top: 16px;
+  display: flex;
+}
+
+.support-input input {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  color: rgba(13, 19, 33, 0.4);
+  width: 500px;
+  background: rgb(255, 255, 255);
+}
+
+.support-input button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  background: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+  cursor: pointer;
+  margin-left: 10px;
+  width: 100px;
+}
+
+.support-input button:hover {
+  background-color: rgb(109, 187, 206);
+  transform: scale(1.2);
 }
 
 /* Footer Style  */
 
 footer {
   border-radius: 16px;
-  justify-content: center; 
+  justify-content: center;
   text-align: center;
   background: rgba(13, 19, 33, 0.03);
   padding: 20px;
 }
 
 .footer {
-  max-width: 1000px; 
+  max-width: 1000px;
   margin: 0 auto;
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
 }
-
 
 .footer-social {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px 0; 
+  margin: 10px 0;
 }
-
 
 .footer-text {
-  color: rgb(13, 19, 33); 
-  font-size: 18px; 
+  color: rgb(13, 19, 33);
+  font-size: 18px;
 }
-
 
 .social-icon {
-  margin: 0 10px; 
-  opacity: 1;  
-  transition: color 0.3s, transform 0.3s; 
-  font-size: 24px; 
+  margin: 0 10px;
+  opacity: 1;
+  transition: color 0.3s, transform 0.3s;
+  font-size: 24px;
 }
 
-
 .social-icon:hover {
-  color: wheat; 
-  transform: scale(1.2); 
+  color: wheat;
+  transform: scale(1.2);
 }
