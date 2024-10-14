@@ -65,12 +65,15 @@ nav {
 }
 .hero-btn {
   border-radius: 8px;
-
   background: rgb(13, 19, 33);
   margin: 32px 0px;
   color: #fff;
   width: 244px;
   height: 65px;
+}
+.hero-btn:hover {
+  background-color: #71bddb; 
+  transform: scale(1.05); /
 }
 .hero-btn > a {
   text-decoration: none;
