@@ -263,3 +263,65 @@ body > main {
   font-weight: 700;
   margin: 16px 10px;
 }
+
+/* I need Support */
+.support-section {
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
+    url("/assets/handshake.jpg");
+  width: 1000px;
+  height: 313px;
+}
+
+.support-tittle {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* Footer Style  */
+
+footer {
+  border-radius: 16px;
+  justify-content: center; 
+  text-align: center;
+  background: rgba(13, 19, 33, 0.03);
+  padding: 20px;
+}
+
+.footer {
+  max-width: 1000px; 
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  align-items: center; 
+}
+
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0; 
+}
+
+
+.footer-text {
+  color: rgb(13, 19, 33); 
+  font-size: 18px; 
+}
+
+
+.social-icon {
+  margin: 0 10px; 
+  opacity: 1;  
+  transition: color 0.3s, transform 0.3s; 
+  font-size: 24px; 
+}
+
+
+.social-icon:hover {
+  color: wheat; 
+  transform: scale(1.2); 
+}
