@@ -39,7 +39,8 @@ nav {
   color: #fff;
 }
 .hero {
-  background-image: url("/assets/Hero-bg.png");
+  background-image: url("../assets/Hero-bg.png");
+
 }
 
 .hero-content {
