@@ -271,7 +271,7 @@ body > main {
 
 .support-section {
   border-radius: 16px;
-  background: url("/assets/handshake.jpg"), rgba(0, 0, 0, 0.2);
+  background: url("assets/handshake.jpg"), rgba(0, 0, 0, 0.2);
   background-size: cover;
   background-position: center;
   width: 1000px;
